@@ -1,0 +1,15 @@
+package com.prueba.tecnica.app.service;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
+import com.prueba.tecnica.app.entity.Tarea;
+
+public interface TareaService {
+
+	public Iterable<Tarea> findAll();
+	
+	public Page<Tarea> findAll(Pageable pageable);
+	
+	
+ }

@@ -1,0 +1,5 @@
+package com.prueba.tecnica.app.service;
+
+public class TareaServiceImpl {
+
+}
